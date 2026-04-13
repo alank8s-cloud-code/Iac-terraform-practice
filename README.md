@@ -26,12 +26,10 @@ The goal is to understand Infrastructure as Code (IaC) in a simple and practical
 ## 📂 Project Structure
 
 ```bash
-terraform-docker-demo/
+Iac-terraform-practice/
 ├── main.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
 ├── asset/
-│   └── output/
+│   └── (task:output)
 ├── README.md
 ```
 
@@ -65,7 +63,7 @@ terraform init
 
 ### 📸 Output Screenshot
 
-![Terraform Init](asset/output/terraform-init.png)
+![Terraform Init](asset/1.png)
 
 ---
 
@@ -77,7 +75,7 @@ terraform plan
 
 ### 📸 Output Screenshot
 
-![Terraform Plan](asset/output/terraform-plan.png)
+![Terraform Plan](asset/.png)
 
 ---
 
