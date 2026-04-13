@@ -123,6 +123,32 @@ This will remove the container and clean up resources.
 
 ---
 
+##  Step 8: Terraform Plan Symbols Guide
+When using Terraform, especially during `terraform plan` or `terraform apply`, you’ll see symbols like `+`, `-`, `~`, etc. These indicate what changes Terraform will make to your infrastructure.
+
+| Symbol | Meaning            | Action                   |
+| ------ | ------------------ | ------------------------ |
+| `+`    | Create             | New resource added       |
+| `-`    | Destroy            | Resource removed         |
+| `~`    | Update             | Modify existing resource |
+| `-/+`  | Recreate           | Destroy and create again |
+| `<=`   | Read (data source) | Fetch external data      |
+
+
+```bash
+Terraform will perform the following actions:
+
+  + aws_instance.new
+  ~ aws_instance.existing
+  - aws_instance.old
+
+Plan: 1 to add, 1 to change, 1 to destroy.
+```
+
+This will remove the container and clean up resources.
+
+---
+
 ## 🎯 Result
 
 * Docker container is created using Terraform
