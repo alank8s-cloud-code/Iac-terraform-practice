@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Learning Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: radial-gradient(circle at top, #111827, #0b1220);
+            color: #e5e7eb;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 70px auto;
+            padding: 40px;
+            background: rgba(17, 24, 39, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 18px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(12px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 6px 14px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            border: 1px solid #38bdf8;
+            color: #38bdf8;
+            border-radius: 30px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 34px;
+            margin: 10px 0;
+            background: linear-gradient(90deg, #38bdf8, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            font-weight: 400;
+            color: #cbd5e1;
+        }
+
+        p {
+            color: #94a3b8;
+            line-height: 1.7;
+            text-align: center;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h3 {
+            color: #f8fafc;
+            margin-bottom: 15px;
+            border-left: 4px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: rgba(255, 255, 255, 0.05);
+            margin: 10px 0;
+            padding: 14px 16px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateX(5px);
+            border-color: #38bdf8;
+            background: rgba(56, 189, 248, 0.08);
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 15px;
+            color: #fbbf24;
+            font-weight: 600;
+        }
+
+        .card-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .card {
+            padding: 15px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="tag">DEVOPS LEARNING JOURNEY</div>
+            <h1>Learning Infrastructure as Code Happy Learning</h1>
+            <h2>Terraform · Docker · Nginx</h2>
+        </div>
+
+        <p>
+            This page is running inside an Nginx container provisioned using Terraform.
+            I am building real-world DevOps understanding step by step.
+        </p>
+
+        <div class="section">
+            <h3>Core Concepts I Am Learning</h3>
+            <ul>
+                <li>Terraform: Infrastructure as Code automation</li>
+                <li>Docker: Lightweight container runtime</li>
+                <li>Nginx: High-performance web server</li>
+                <li>DevOps workflow integration</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Learning Stack Overview</h3>
+            <div class="card-row">
+                <div class="card">Terraform → Provision infrastructure</div>
+                <div class="card">Docker → Run isolated containers</div>
+                <div class="card">Nginx → Serve web applications</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Goal: Become a DevOps Engineer
+        </div>
+
+    </div>
+
+</body>
+
+</html>
