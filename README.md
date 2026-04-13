@@ -75,7 +75,7 @@ terraform plan
 
 ### 📸 Output Screenshot
 
-![Terraform Plan](asset/.png)
+![Terraform plan](asset/2.png)
 
 ---
 
@@ -89,7 +89,7 @@ Type `yes` when prompted.
 
 ### 📸 Output Screenshot
 
-![Terraform Apply](asset/output/terraform-apply.png)
+![Terraform Apply](asset/3.png)
 
 ---
 
@@ -105,8 +105,10 @@ docker ps
 
 Open in browser:
 
+![Terraform output](asset/4.png)
+
 ```
-http://localhost:8080
+http://<EC2-ip>:8080 or http://localhost:8080 
 ```
 
 ---
@@ -120,21 +122,7 @@ terraform destroy
 This will remove the container and clean up resources.
 
 ---
-
-## 📸 Execution Logs
-
-Store screenshots in:
-
 ```
-asset/output/
-```
-
-Examples:
-
-* terraform-init.png
-* terraform-plan.png
-* terraform-apply.png
-
 ---
 
 ## 🎯 Result
