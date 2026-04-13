@@ -27,9 +27,8 @@ The goal is to understand Infrastructure as Code (IaC) in a simple and practical
 
 ```bash
 Iac-terraform-practice/
-├── main.tf
-├── asset/
-│   └── (task:output)
+├── main.tf  # used for creating and managing infrastructure resources  
+├── asset/    # used for storing image files like screenshots   
 ├── README.md
 ```
 
