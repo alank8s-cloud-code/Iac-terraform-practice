@@ -122,8 +122,6 @@ terraform destroy
 This will remove the container and clean up resources.
 
 ---
-```
----
 
 ## 🎯 Result
 
